@@ -7,6 +7,10 @@
     "start": "nodemon server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true"
   },
+  "engines": {
+    "node": "16.17.0",
+    "npm": "8.19.2"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
